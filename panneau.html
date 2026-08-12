@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet DHTML</title>
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container d-flex">
+            <a href="index.html" class="navbar-brand fw-bold">Projet JavaScript</a>
+            <ul class="navbar-nav d-flex flex-row ms-auto gap-3">
+                <li class="nav-item"><a href="index.html" class="nav-link">Acceuil</a></li>
+                <li class="nav-item"><a href="cramer.html" class="nav-link">Cramer</a></li>
+                <li class="nav-item"><a href="image.html" class="nav-link">Image</a></li>
+                <li class="nav-item"><a href="datatable.html" class="nav-link">Datatable</a></li>
+                <li class="nav-item"><a href="panneau.html" class="nav-link active">Panneau</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Panneau publicitaire</h2>
+        <div class="card">
+            <div id="panneau" class="card-body">
+                <img src="images\pub1.webp" alt="pub1" class="pub">
+                <img src="images\pub2.webp" alt="pub2" class="pub">
+                <img src="images\pub3.webp" alt="pub3" class="pub">
+            </div>
+        </div>
+        <div class="text-center">
+            <button class="btn btn-modern btn-prev" id="precedent"> ⏮ Précédent</button>
+            <button class="btn btn-modern btn-pause" id="pause">⏸ Pause</button>
+            <button class="btn btn-modern btn-resume" id="reprendre">▶ Reprendre</button>
+            <button class="btn btn-modern btn-next" id="suivant">⏭ Suivant</button>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white p-3 text-center mt-auto">Développé par le Groupe 18 :2572 HF -- 2572 Andriantsoa Michel Luciano, 2582 HF -- 2582 RAZAKATSARA Remy Andonirina, 2565 HF -- 2565 RASOLONIAINA Adjemmy, 2549 HF -- 2549 ANDRIANOMENJANAHARY Mitia Zénaïde
+    </footer>
+
+    <script src="libs/jquery/jquery-3.7.1.min.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/panneau.js"></script>
+</body>
+
+</html>

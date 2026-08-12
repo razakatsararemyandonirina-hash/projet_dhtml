@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet DHTML</title>
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/datatables/datatables.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container d-flex">
+            <a href="index.html" class="navbar-brand fw-bold">Projet JavaScript</a>
+            <ul class="navbar-nav d-flex flex-row ms-auto gap-3">
+                <li class="nav-item"><a href="index.html" class="nav-link">Acceuil</a></li>
+                <li class="nav-item"><a href="cramer.html" class="nav-link">Cramer</a></li>
+                <li class="nav-item"><a href="image.html" class="nav-link">Image</a></li>
+                <li class="nav-item"><a href="datatable.html" class="nav-link active">Datatable</a></li>
+                <li class="nav-item"><a href="panneau.html" class="nav-link">Panneau</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-auto">
+        <h2 class="text-center mb-4">Liste des produits</h2>
+        <table id="produits" class="table table-bordered table-stripted text-center">
+            <thead class="table-dark">
+                <tr>
+                    <th>Désignation</th>
+                    <th>Quantité</th>
+                    <th>Prix</th>
+                    <th>Montant</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Riz</td>
+                    <td>10</td>
+                    <td>4000</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Manioc</td>
+                    <td>20</td>
+                    <td>3000</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Sucre</td>
+                    <td>50</td>
+                    <td>1000</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Patate</td>
+                    <td>40</td>
+                    <td>500</td>
+                    <td></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr class="table-secondary">
+                    <th>Total</th>
+                    <th id="qteTotale"></th>
+                    <th id="prixTotal"></th>
+                    <th id="montantTotal"></th>
+                </tr>
+            </tfoot>
+        </table>
+        <div class="mt-4">
+            <p><strong>Prix moyen :</strong> <span id="prixMoyen"></span></p>
+            <p><strong>Prix minimal :</strong> <span id="prixMin"></span></p>
+            <p><strong>Prix maximal :</strong> <span id="prixMax"></span></p>
+        </div>
+        <div class="container mt-5">
+            <canvas id="graphe"></canvas>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white p-3 text-center mt-auto">Développé par le Groupe 18 :
+
+        2572 HF -- 2572 Andriantsoa Michel Luciano
+
+        2582 HF -- 2582 RAZAKATSARA Remy Andonirina
+
+        2565 HF -- 2565 RASOLONIAINA Adjemmy
+
+        2549 HF -- 2549 ANDRIANOMENJANAHARY Mitia Zénaïde
+    </footer>
+
+
+    <script src="libs/jquery/jquery-3.7.1.min.js"></script>
+    <script src="libs/jquery-ui/jquery-ui.min.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="libs/datatables/datatables.min.js"></script>
+    <script src="libs\chartjs\chart.umd.min.js"></script>
+    <script src="js/datatable.js"></script>
+</body>
+
+</html>

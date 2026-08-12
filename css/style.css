@@ -1,0 +1,79 @@
+#panneau{
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    aspect-ratio: 16 / 9;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.3);
+}
+
+.pub{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+}
+
+.btn-prev {
+    background: #475569;
+    color: #fff;
+    border: none;
+}
+
+.btn-prev:hover {
+    background: #334155;
+}
+
+.btn-next,.btn-cramer {
+    background: #2563EB;
+    color: #fff;
+    border: none;
+}
+
+.btn-next:hover {
+    background: #1D4ED8;
+}
+
+.btn-cramer{
+    background: #1D4ED8;
+}
+
+.btn-pause {
+    background: #F97316;
+    color: #fff;
+    border: none;
+}
+
+.btn-pause:hover {
+    background: #EA580C;
+}
+
+.btn-resume {
+    background: #10B981;
+    color: #fff;
+    border: none;
+}
+
+.btn-resume:hover {
+    background: #059669;
+}
+
+.btn-modern{
+    border-radius: 12px;
+    padding: 10px 22px;
+    font-weight: 600;
+    transition: all .25s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,.12);
+}
+
+.btn-modern:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(0,0,0,.18);
+}
+
+.btn-modern:active{
+    transform: scale(.97);
+}
