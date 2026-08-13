@@ -17,49 +17,6 @@
     display: none;
 }
 
-.btn-prev {
-    background: #475569;
-    color: #fff;
-    border: none;
-}
-
-.btn-prev:hover {
-    background: #334155;
-}
-
-.btn-next,.btn-cramer {
-    background: #2563EB;
-    color: #fff;
-    border: none;
-}
-
-.btn-next:hover {
-    background: #1D4ED8;
-}
-
-.btn-cramer{
-    background: #1D4ED8;
-}
-
-.btn-pause {
-    background: #F97316;
-    color: #fff;
-    border: none;
-}
-
-.btn-pause:hover {
-    background: #EA580C;
-}
-
-.btn-resume {
-    background: #10B981;
-    color: #fff;
-    border: none;
-}
-
-.btn-resume:hover {
-    background: #059669;
-}
 
 .btn-modern{
     border-radius: 12px;
